@@ -2,10 +2,13 @@ public Boolean isTypeAccount(sObject record)
 {
     // code here
        // Account acc = new Account(name = 'hello');
-        if(instanceOf(isTypeAccount(record)) == Account){
+    /*    if(instanceOf(isTypeAccount(record)) == Account){
             return true;
         }else{
             return false;
-        }
-    
+        }*/
+    if(record instanceOf Account){
+        return true;
+    }
+
 }
